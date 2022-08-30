@@ -1,3 +1,9 @@
+"============================
+"Title: My vim configuration
+"Athor: George Konstantis
+"============================
+
+
 "Section: General 
 
 "Global options
@@ -21,8 +27,9 @@ let g:netrw_banner = 0
 let g:netrw_altv = 1
 
 "Set up the cursor style in each mode
-"let &t_SI.="\e[5 q"
-"let &t_EI = "\e[2 q"
+let &t_SI.="\e[5 q"
+let &t_EI = "\e[2 q"
+
 
 
 "Section: Plugins
@@ -50,9 +57,7 @@ inoremap ξξ <ESC>
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-
+inoremap [ []<left> inoremap { {}<left>
 "Saving like a boss
 inoremap <silent> <C-s> <ESC>:w<CR> 
 inoremap <silent> <C-σ> <ESC>:w<CR> 
@@ -167,10 +172,17 @@ augroup asymptote
 augroup END
 
 
-
-""Section: Snippets
+" Section: Snippets
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>>"
 
+"Section: Statusline
+
+set laststatus=2 
+set statusline=%f         " Path to the file
+set statusline+=%=
+set statusline+=%y        " Filetype of the file
+set statusline+=\ %l\:%c
+set statusline+=\ /\ %p%% 
