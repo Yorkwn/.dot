@@ -1,5 +1,5 @@
-# .dotvim
+# My vim configuration files
 My minimal vim configuration
 
-##Dependencies
+## Dependencies
 * Vim-Plug
