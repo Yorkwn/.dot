@@ -181,8 +181,8 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>>"
 "Section: Statusline
 
 set laststatus=2 
-set statusline=%f         " Path to the file
+set statusline=%f         
 set statusline+=%=
-set statusline+=%y        " Filetype of the file
+set statusline+=%y        
 set statusline+=\ %l\:%c
 set statusline+=\ /\ %p%% 
