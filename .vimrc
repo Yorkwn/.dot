@@ -143,6 +143,9 @@ nnoremap <silent> <s-tab> :tabnext<CR>
 "Better Macro call
 nnoremap <silent> Q @q
 
+"Let Y have the same behavior like C and D
+nnoremap Y y$
+
 "Section: Colorscheme
 
 colorscheme nord
