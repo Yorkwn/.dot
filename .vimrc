@@ -207,10 +207,12 @@ set laststatus=2
 set statusline+=%#ModeMsg#
 set statusline+=%=
 set statusline+=%#ModeMsg#
-set statusline+=%F
+set statusline+=%f
 set statusline+=\ %y        
 set statusline+=\ %l\:%c
 set statusline+=\ %p%%\ 
+
+
 "Section: Vimtex
 
 let g:vimtex_view_method = 'zathura'
