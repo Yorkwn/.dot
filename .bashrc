@@ -59,8 +59,7 @@ alias notes="cd ~/Documents/physics_notes"
 alias hea="cd ~/Documents/physics_notes/he_astrophysics/assignments"
 alias rustbook="rustup docs --book"
 alias jn="jupyter notebook"
-alias bellatrix="ssh -Y students@88.197. -p 65001"
-alias virc="vi $HOME/$VIMRUNTIMEPATH"
+alias virc="vi $HOME/.vim/vimrc"
 
 . "$HOME/.cargo/env"
 
