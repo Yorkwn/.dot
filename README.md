@@ -1,5 +1,4 @@
-# My vim configuration files
-My minimal vim configuration
+# My system dot files (WIP)
 
 ## Dependencies
 * Vim-Plug
