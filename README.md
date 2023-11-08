@@ -1,4 +1,4 @@
-# My system dot files (WIP)
+# System dot files (WIP)
 
 ## Dependencies
 * Vim-Plug
